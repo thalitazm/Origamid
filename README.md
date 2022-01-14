@@ -1,2 +1,2 @@
 # Origamid
-Prática das aulas e projetos do s cursos da Origamid
+Prática das aulas e projetos dos cursos da Origamid
