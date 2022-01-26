@@ -1,0 +1,47 @@
+
+/* Distribuição das colunas dentro do grid => align-content e justify-content */
+/* align-content: alinha nha vertical */
+/* justify-content: alinha na horizontal */
+/* space-between: espaçamento entre as colunas */
+
+/* place-content: atalho para align-content e justify-content */
+
+body {
+    font-family: Arial;
+    color: rgba(0, 0, 0, 0.55);
+
+}
+
+h1 {
+    text-align: center;
+    color: rgb(53, 39, 139);
+}
+
+h2 {
+    margin-top: 0px;
+    color: rgba(0, 0, 0, 0.85);
+}
+
+.comprar {
+    background: #a8f;
+    color: whitesmoke;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.item {
+    background: #f7f7f7;
+    border: 1px solid #e7e7e7;
+    padding: 20px;
+    border-radius: 4px;
+    display: grid; /* modifica como o elemento se comporta*/
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    gap: 20px;
+    justify-content: center;
+}
